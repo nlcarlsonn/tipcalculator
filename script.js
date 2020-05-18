@@ -11,6 +11,6 @@ document.getElementById("container").addEventListener("change", function () {
     document.getElementById("tipOutput").innerHTML = tipPercent + "%";
     document.getElementById("splitOutput").innerHTML = split;
     
-    document.getElementById("newBill").innerHTML = newBillEach.toFixed(2) + " XAF";
-    document.getElementById("tipEach").innerHTML = tipEach.toFixed(2) + " XAF";
+    document.getElementById("newBill").innerHTML = newBillEach.toFixed() + " XAF";
+    document.getElementById("tipEach").innerHTML = tipEach.toFixed() + " XAF";
 })
